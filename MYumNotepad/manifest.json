@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Simple Notepad",
+    "version": "1.0",
+    "description": "A simple notepad Chrome extension to save your notes.",
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "logo.png"
+    },
+    "icons":{
+        "128": "logo.png"
+    },
+    "permissions": ["storage"]
+  }
+  
